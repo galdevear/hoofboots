@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "postpone": {
+      "trigger": "minecraft:impossible"
+    },
+    "delay": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "veer:hoofboots/advancements/postpone/boothorn"
+  }
+}

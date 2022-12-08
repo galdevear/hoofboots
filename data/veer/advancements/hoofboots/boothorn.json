@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "right_click_candidate_with_boothorn": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "veer:hoofboots/boothorns"
+        },
+        "entity": [{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#veer:hoofboots/candidates"
+          }
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "veer:hoofboots/advancements/boothorn"
+  }
+}
