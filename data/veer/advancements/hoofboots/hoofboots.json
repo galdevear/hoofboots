@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Hoofboots",
-        "description": "Collection of mount datapacks",
+        "description": "Equip boots onto ridable mobs",
         "icon": {
             "item": "minecraft:diamond_boots"
         },
