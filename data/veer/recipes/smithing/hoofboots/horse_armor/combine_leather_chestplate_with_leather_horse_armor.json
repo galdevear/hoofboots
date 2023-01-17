@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:leather_horse_armor"
+  },
+  "result": {
+    "item": "minecraft:leather_horse_armor"
+  }
+}
