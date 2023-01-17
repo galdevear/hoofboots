@@ -1,12 +1,11 @@
 ##
- # boots.mcfunction
- # 
+ # boots_1.mcfunction
+ # Version 1
  #
  # Created by Galdeveer.
 ##
 
-advancement revoke @s only veer:hoofboots/boots
+# Revocations
+advancement revoke Galdeveer only veer:hoofboots/boots
 
-# The revoke will reset any criteria added to delay execution.
-advancement revoke @s only veer:hoofboots/postpone/boots delay
-advancement grant @s only veer:hoofboots/postpone/boots postpone
+execute if predicate veer:hoofboots/selected_item_is_boots run function veer:hoofboots/advancements/boots-1
