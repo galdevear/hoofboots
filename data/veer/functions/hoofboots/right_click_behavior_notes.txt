@@ -1,0 +1,5 @@
+There is no shift right click interaction for mobs without an inventory, excluding pets.
+The untamable ones happen to be unshift_right_clickable
+theres no reason to allow this stuff to work on untamed tamable mobs
+Unsaddle mobs don't get basic right click interaction without the saddle anyway (otherwise would be the equivalent of taming for nontamable)
+Will need to check if your the owner of a pet mob; actually no nvm you can't right click someone elses pet anyway

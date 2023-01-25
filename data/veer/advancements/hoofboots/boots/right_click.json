@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "shift_right_click_tamable": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "veer:hoofboots/boots"
+        },
+        "entity": [{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#veer:hoofboots/candidates/tamable_and_shift_right_clickable",
+            "nbt": "{\"Tame\":1b}"
+          }
+        }],
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    },
+    "right_click_unridable": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "veer:hoofboots/boots"
+        },
+        "entity": [{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#veer:hoofboots/candidates/unridable"
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [
+    ["right_click_unridable", "shift_right_click_tamable"]
+  ],
+  "rewards": {
+    "function": "veer:hoofboots/boots/right_click"
+  }
+}

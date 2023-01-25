@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values":
+    [
+        "#veer:hoofboots/candidates/tamable_and_shift_right_clickable",
+        "#veer:hoofboots/candidates/untamable",
+        "#veer:hoofboots/candidates/unridable"
+    ]
+}

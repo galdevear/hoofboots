@@ -1,0 +1,2 @@
+execute positioned ~-0.0005 ~-0.0005 ~-0.0005 as @e[type=#veer:hoofboots/candidates/all,dx=0,limit=1] positioned ~-0.009 ~-0.009 ~-0.009 if entity @s[dx=0] run tag @s add veer.hoofboots.equiping.target
+function veer:hoofboots/equiping/equip_boots

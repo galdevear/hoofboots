@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "lock": {
+            "trigger": "impossible"
+        },
+        "1s": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "#veer:hoofboots/candidates/all"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["lock"],
+        ["1s"]
+    ],
+    "rewards": {
+        "function": "veer:hoofboots/boots/start_riding"
+    }
+}

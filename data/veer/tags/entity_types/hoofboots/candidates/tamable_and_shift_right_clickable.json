@@ -8,8 +8,6 @@
         "minecraft:llama",
         "minecraft:zombie_horse",
         "minecraft:skeleton_horse",
-        "minecraft:trader_llama",
-        "minecraft:pig",
-        "minecraft:strider"
+        "minecraft:trader_llama"
     ]
 }

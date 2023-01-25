@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "mount": {
+            "trigger": "started_riding",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "tag": "veer:hoofboots/boots"
+                        }
+                    },
+                    "vehicle": {
+                        "type": "#veer:hoofboots/candidates/all"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:hoofboots/boots/start_riding_delay"
+    }
+}

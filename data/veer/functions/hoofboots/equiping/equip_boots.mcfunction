@@ -1,24 +1,19 @@
-##
- # equip.mcfunction
- # Version 1
- #
- # Created by Galdeveer.
- #
- #alias entity Target @e[tag=veer.hoofboots.equip.target,limit=1]
- #alias entity Player @s
-##
 
-#define storage veer:hoofboots/equip
-#define tag veer.hoofboots.equip.target Parameter for method. Currently, the caller must remove the tag.
+#declare score_holder $hadTarget
+#declare storage veer:hoofboots/equip
+#declare tag veer.hoofboots.equiping.target Tag target to equip to before calling
 
-#Clone item in players hand to storage
+# Initialize
+scoreboard players set $hadTarget veer.hoofboots.equiping 0
+
+# Clone item in players hand to storage
 data modify storage veer:hoofboots/equip boots set from entity @s SelectedItem
 
-#clear boots from player's hand and play the equiping sound
-execute if entity @e[tag=veer.hoofboots.equip.target,limit=1] run function veer:hoofboots/equiping/clear_hand
+# Handle Target
+execute as @e[tag=veer.hoofboots.equiping.target,limit=1] at @s run function veer:hoofboots/equiping/equip_boots_target
 
-#Clone boots to target and display particles
-execute as @e[tag=veer.hoofboots.equip.target,limit=1] at @s run function veer:hoofboots/equiping/equip_boots_from_storage
+# clear boots from player's hand and play the equiping sound
+execute if score $hadTarget veer.hoofboots.equiping matches 1 run function veer:hoofboots/equiping/clear_hand
 
-#Clear boots from storage
+# Clear boots from storage
 data remove storage veer:hoofboots/equip boots
