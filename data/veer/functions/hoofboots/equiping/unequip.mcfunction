@@ -30,3 +30,6 @@ tag @e[type=item,tag=veer.hoofboots.unequip.newItem,limit=1] remove veer.hoofboo
 
 # Clear copy of the boots from storage
 data remove storage veer:hoofboots/unequip boots
+
+#Untag target
+tag @s remove veer.hoofboots.equiping.target
