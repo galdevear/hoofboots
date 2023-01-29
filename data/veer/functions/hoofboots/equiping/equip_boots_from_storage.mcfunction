@@ -6,4 +6,6 @@ data modify entity @s ArmorItems[0] set from storage veer:hoofboots/equip boots
 data modify entity @s ArmorDropChances[0] set value 2.000f
 # Make sure the player knows which entity it was equiped onto incase its a mistake.
 
-execute at @s anchored eyes positioned ^ ^ ^ run particle minecraft:crimson_spore ~ ~ ~ 0 0 0 0 10 normal @a
+playsound item.armor.equip_leather player @a[distance=..10] ~ ~ ~ 1 0.8 0.2
+
+execute at @s anchored feet positioned ^ ^ ^0.8 run particle block dirt ~ ~ ~ 0 0 0 1 20 normal 

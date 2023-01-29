@@ -1,3 +1,7 @@
+Cat bug report
 god apple interaction for horses
-cats can have totems of undying
-dogs can have something?
+add support for curse of binding
+Fix horse armor glitch
+Horse curing
+Horse resurection (portable horse but no horse armor)
+ender pearl support

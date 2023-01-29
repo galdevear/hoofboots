@@ -9,7 +9,9 @@
 #define storage veer:hoofboots/unequip
 
 # Play sound for player
-playsound item.armor.equip_netherite player @e[type=player,distance=..10] ~ ~ ~
+playsound item.armor.equip_leather player @a[distance=..10] ~ ~ ~ 1 0.8 0.2
+
+execute at @s anchored feet positioned ^ ^ ^0.8 run particle block dirt ~ ~ ~ 0 0 0 1 20 normal 
 
 # Clone item in candidate's boot slot to storage
 data modify storage veer:hoofboots/unequip boots set from entity @s ArmorItems[0]
