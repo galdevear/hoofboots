@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "click": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "tag": "veer:hoofboots/boots_and_boothorns"
+                },
+                "entity": {
+                    "equipment": {
+                        "feet": {
+                            "enchantments": [
+                                {
+                                    "enchantment": "binding_curse"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:hoofboots/curse_of_binding/right_click_delay"
+    }
+}

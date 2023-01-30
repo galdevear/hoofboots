@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": ["enchanted_golden_apple"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:hoofboots/enchanted_golden_apple/feed"
+    }
+}

@@ -10,8 +10,11 @@
                         }
                     },
                     "vehicle": {
+                        "type":"#veer:hoofboots/candidates/all",
                         "equipment": {
-                            "feet": {}
+                            "feet": {
+                                "tag": "veer:hoofboots/boots"
+                            }
                         }
                     }
                 }

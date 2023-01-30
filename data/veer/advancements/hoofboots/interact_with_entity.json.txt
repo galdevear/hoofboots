@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "right_click": {
+            "trigger": "player_interacted_with_entity"
+        }
+    },
+    "rewards": {
+        "function": "veer:hoofboots/interact_with_entity"
+    }
+}

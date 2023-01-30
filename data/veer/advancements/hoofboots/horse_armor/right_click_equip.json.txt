@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "right_click_equip": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "player": {
+                    "flags": {
+                        "is_sneaking": false
+                    }
+                },
+                "item": {
+                    "items": [""]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:hoofboots/horse_armor/right_click_equip"
+    }
+}

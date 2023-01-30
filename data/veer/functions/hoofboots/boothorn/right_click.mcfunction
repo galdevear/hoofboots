@@ -1,12 +1,10 @@
 ##
- # boothorn.mcfunction
- # Version 1
- #
- # Created by Galdeveer.
+ # untamable ignored by advancement because they don't get basic right click detection anyway
+ # Tamed isn't required for unequiping boots just incase an error results in equiping boots onto an untamed horse.
 ##
 
-#untamable ignored by advancement because they don't get basic right click detection anyway
 advancement revoke Galdeveer only veer:hoofboots/boothorn/right_click
+
 # Trace for entity.
-function veer:hoofboots/discover_candidate/find_target
-execute as @e[tag=veer.hoofboots.equiping.target] if data entity @s ArmorItems[0].id run function veer:hoofboots/equiping/unequip
+scoreboard players set $foundTarget veer.hoofboots.discover_candidate 0
+execute as @e[type=#veer:hoofboots/candidates/all,distance=..7] run function veer:hoofboots/boothorn/right_click-1

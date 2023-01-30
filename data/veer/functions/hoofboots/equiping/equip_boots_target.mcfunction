@@ -1,9 +1,5 @@
-
-execute if data entity @s ArmorItems[0].id run function veer:hoofboots/equiping/unequip
-#Clone boots to target and display particles
-execute at @s run function veer:hoofboots/equiping/equip_boots_from_storage
-
-scoreboard players set $hadTarget veer.hoofboots.equiping 1
+# Stops if the boots are bound, or a non-boot item is equiped to the boot slot (likely a technical item for a datapack)
+execute if entity @s[type=#veer:hoofboots/candidates/all,predicate=!veer:hoofboots/wearing_boots_curse_of_binding] unless entity @s[predicate=!veer:hoofboots/wearing_normal_boots,predicate=veer:hoofboots/wearing_something_as_boots] run function veer:hoofboots/equiping/equip_boots_target-1
 
 # Untag target
 tag @s remove veer.hoofboots.equiping.target

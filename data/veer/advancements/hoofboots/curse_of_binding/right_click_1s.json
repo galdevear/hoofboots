@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "lock": {
+            "trigger": "impossible"
+        },
+        "1s": {
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        ["lock"],
+        ["1s"]
+    ],
+    "rewards": {
+        "function": "veer:hoofboots/curse_of_binding/right_click"
+    }
+}

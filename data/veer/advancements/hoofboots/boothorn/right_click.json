@@ -11,9 +11,10 @@
           "entity": "this",
           "predicate": {
             "type": "#veer:hoofboots/candidates/tamable_and_shift_right_clickable",
-            "nbt": "{\"Tame\":1b}",
             "equipment": {
-              "feet": {}
+              "feet": {
+                "tag":"veer:hoofboots/boots"
+              }
             }
           }
         }],
@@ -22,7 +23,7 @@
             "is_sneaking": true
           }
         }
-      }
+    }
     },
     "right_click_unridable": {
       "trigger": "minecraft:player_interacted_with_entity",
@@ -36,7 +37,9 @@
           "predicate": {
             "type": "#veer:hoofboots/candidates/unridable",
             "equipment": {
-              "feet": {}
+              "feet": {
+                "tag": "veer:hoofboots/boots"
+              }
             }
           }
         }]
