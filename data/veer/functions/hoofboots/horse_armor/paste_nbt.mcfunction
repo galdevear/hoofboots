@@ -1,1 +1,0 @@
-data modify entity @s ArmorItem set from storage veer:hoofboots/equip horse_armor

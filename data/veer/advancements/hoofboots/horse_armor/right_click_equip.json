@@ -1,0 +1,510 @@
+{
+    "criteria": {
+        "protection_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "protection",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "protection_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "protection",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "protection_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "protection",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "protection_4": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "protection",
+                            "levels": 4
+                        }
+                    ]
+                }
+            }
+        },
+        "mending_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "mending",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "unbreaking_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "unbreaking",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "unbreaking_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "unbreaking",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "unbreaking_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "unbreaking",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "thorns_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "thorns",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "thorns_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "thorns",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "thorns_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "thorns",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "projectile_protection_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "projectile_protection",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "projectile_protection_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "projectile_protection",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "projectile_protection_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "projectile_protection",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "projectile_protection_4": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "projectile_protection",
+                            "levels": 4
+                        }
+                    ]
+                }
+            }
+        },
+        "fire_protection_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "fire_protection",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "fire_protection_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "fire_protection",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "fire_protection_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "fire_protection",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "fire_protection_4": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "fire_protection",
+                            "levels": 4
+                        }
+                    ]
+                }
+            }
+        },
+        "blast_protection_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "blast_protection",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "blast_protection_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "blast_protection",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "blast_protection_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "blast_protection",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "blast_protection_4": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "blast_protection",
+                            "levels": 4
+                        }
+                    ]
+                }
+            }
+        },
+        "curse_of_binding_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "binding_curse",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "curse_of_vanishing_1": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "reference",
+                        "name": "veer:hoofboots/horse_armor/right_click_equip"
+                    }
+                ],
+                "item": {
+                    "tag": "veer:hoofboots/horse_armor",
+                    "enchantments": [
+                        {
+                            "enchantment": "vanishing_curse",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["protection_1", "protection_2", "protection_3", "protection_4", "mending_1", "unbreaking_1", "unbreaking_2", "unbreaking_3", "thorns_1", "thorns_2", "thorns_3", "projectile_protection_1", "projectile_protection_2", "projectile_protection_3", "projectile_protection_4", "fire_protection_1", "fire_protection_2", "fire_protection_3", "fire_protection_4", "blast_protection_1", "blast_protection_2", "blast_protection_3", "blast_protection_4", "curse_of_binding_1","curse_of_vanishing_1"]
+      ],
+    "rewards": {
+        "function": "veer:hoofboots/horse_armor/right_click_equip"
+    }
+}

@@ -1,0 +1,1 @@
+execute as @a run function veer:hoofboots/player_tick

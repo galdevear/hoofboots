@@ -10,6 +10,8 @@ scoreboard objectives add veer.hoofboots.boothorn dummy
 scoreboard objectives add veer.hoofboots.equiping dummy
 scoreboard objectives add veer.hoofboots.horse_armor dummy
 
+function veer:hoofboots/horse_armor/init_objectives
+
 # Temporary version updating bug handling line. Remove after a few weeks.
 # Tell people to reload if they have issues
 tag @e[tag=veer.hoofboots.equiping.target] remove veer.hoofboots.equiping.target

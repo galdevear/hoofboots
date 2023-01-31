@@ -1,0 +1,1 @@
+execute if entity @s[tag=veer.hoofboots.horse_armor.got_all_scores] run function veer:hoofboots/horse_armor/after_criteria_processed
