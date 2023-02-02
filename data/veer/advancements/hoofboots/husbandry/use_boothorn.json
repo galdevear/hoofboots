@@ -1,0 +1,15 @@
+{
+    "parent": "veer:hoofboots/husbandry/use_hoofboots",
+    "criteria": {
+        "grant_by_function": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": "So it's not an instrument?",
+        "description": "Right click a tamed or saddled mount with a shovel to use it like a boothorn and pry off the boots their wearing."
+    }
+}

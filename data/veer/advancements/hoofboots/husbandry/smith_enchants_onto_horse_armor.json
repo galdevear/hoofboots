@@ -1,0 +1,55 @@
+{
+    "parent": "veer:hoofboots/husbandry/use_hoofboots",
+    "criteria": {
+        "smith_diamond": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "veer:smithing/smithchant/horse_armor/combine_diamond_chestplate_with_diamond_horse_armor"
+            }
+        },
+        "smith_iron": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "veer:smithing/smithchant/horse_armor/combine_iron_chestplate_with_iron_horse_armor"
+            }
+        },
+        "smith_gold": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "veer:smithing/smithchant/horse_armor/combine_gold_chestplate_with_gold_horse_armor"
+            }
+        },
+        "smith_leather": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "veer:smithing/smithchant/horse_armor/combine_leather_chestplate_with_leather_horse_armor"
+            }
+        }
+    },
+    "display": {
+        
+        "icon": {
+            "item": "diamond_horse_armor",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        
+        "title": "My Little Warhorse",
+        "description": "Put a chestplate and horse armor of matching type into a smithing table to smith the chestplate's enchants onto the horse armor."
+    },
+    "requirements": [
+        [
+            "smith_diamond",
+            "smith_gold",
+            "smith_iron",
+            "smith_leather"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "veer:smithing/smithchant/horse_armor/combine_diamond_chestplate_with_diamond_horse_armor",
+            "veer:smithing/smithchant/horse_armor/combine_gold_chestplate_with_gold_horse_armor",
+            "veer:smithing/smithchant/horse_armor/combine_iron_chestplate_with_iron_horse_armor",
+            "veer:smithing/smithchant/horse_armor/combine_leather_chestplate_with_leather_horse_armor"
+        ]
+    }
+}

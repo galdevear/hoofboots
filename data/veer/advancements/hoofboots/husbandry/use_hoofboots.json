@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:husbandry/tame_an_animal",
+    "criteria": {
+        "grant_by_function": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots",
+            "nbt": "{\"Enchantments\":[{}]}"
+        },
+        "title": "Horseshoes are so last year",
+        "description": "Right click a tamed or saddled mount with a pair of boots to equip them onto them."
+    }
+}

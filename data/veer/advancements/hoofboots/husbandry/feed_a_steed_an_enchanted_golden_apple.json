@@ -1,4 +1,5 @@
 {
+    "parent": "minecraft:husbandry/tame_an_animal",
     "criteria": {
         "requirement": {
             "trigger": "player_interacted_with_entity",
@@ -18,7 +19,12 @@
             }
         }
     },
-    "rewards": {
-        "function": "veer:hoofboots/enchanted_golden_apple/feed"
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": "Equine Steroids",
+        "description": "Feed an enchanted golden apple to your steed.",
+        "frame": "challenge"
     }
 }
