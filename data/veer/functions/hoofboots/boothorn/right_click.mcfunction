@@ -5,6 +5,9 @@
 
 advancement revoke Galdeveer only veer:hoofboots/boothorn/right_click
 
+# achievement
+advancement grant @s only veer:hoofboots/husbandry/use_boothorn
+
 # Trace for entity.
 scoreboard players set $foundTarget veer.hoofboots.discover_candidate 0
 execute as @e[type=#veer:hoofboots/candidates/all,distance=..7] run function veer:hoofboots/boothorn/right_click-1
